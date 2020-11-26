@@ -1,1 +1,120 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T09:45:32.166Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.10.0" etag="Q2hkH3LTZ01aQCy-PImU" type="github"><diagram id="hCdZttmupiIgdSEwCvPB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-26T11:11:44.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="lNUEWJitXpdWHu2Wm95-" version="13.10.0" type="github">
+  <diagram id="hCdZttmupiIgdSEwCvPB" name="第 1 页">
+    <mxGraphModel dx="920" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-1" target="Uyp26dmAU12VLLqRyD5d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-1" value="定义函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-2" target="Uyp26dmAU12VLLqRyD5d-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-2" value="生成一个函数作用域" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-3" value="函数的局部变量在此作用域中使用" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="602" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-4" target="Uyp26dmAU12VLLqRyD5d-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-4" value="函数执行完毕" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-5" value="函数所占用的空间被回收" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-6" value="局部变量也一同被回收" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-11" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uyp26dmAU12VLLqRyD5d-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="494" y="240" as="sourcePoint" />
+            <mxPoint x="682" y="320" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-12" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uyp26dmAU12VLLqRyD5d-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="860" as="sourcePoint" />
+            <mxPoint x="160" y="870" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-13" value="用途" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="532" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-14" value="同步操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="830" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-16" target="Uyp26dmAU12VLLqRyD5d-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-16" value="函数的执行上下文环境出栈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-19" target="Uyp26dmAU12VLLqRyD5d-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-19" value="函数调用，生成一个执行上下文环境" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-21" target="Uyp26dmAU12VLLqRyD5d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-21" value="入栈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e51400;strokeColor=#FF0000;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-44" target="Uyp26dmAU12VLLqRyD5d-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-44" value="局部变量是否&lt;br&gt;被返回函数内部引用" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="600" width="140" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-47" value="NO" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0000;" edge="1" parent="1" source="Uyp26dmAU12VLLqRyD5d-49" target="Uyp26dmAU12VLLqRyD5d-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-49" value="不出栈" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-51" value="&lt;font color=&quot;#ff0000&quot;&gt;Yes&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="545" y="620" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-52" value="直到变量引用没有了&lt;br&gt;才出栈被回收" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="510" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-54" value="局部变量处于活跃状态，且被保存在内存中" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="690" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-57" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uyp26dmAU12VLLqRyD5d-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="749.5" as="sourcePoint" />
+            <mxPoint x="640" y="749.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-58" value="意味着" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="637" y="720" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-59" value="正常流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="600" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Uyp26dmAU12VLLqRyD5d-60" value="&lt;font color=&quot;#ff0000&quot;&gt;闭包形成&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="600" width="60" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
